@@ -1,7 +1,8 @@
 # Личный проект «Седона»
 
 * Студент: [Анастасия Горкун](https://up.htmlacademy.ru/htmlcss-individual/2/user/156004).
-* Наставник: `Неизвестно`.
+* Наставник: [Ирина
+  Антипина](https://htmlacademy.ru/profile/id2108789).
 
 ---
 
