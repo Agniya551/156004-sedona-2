@@ -3,6 +3,7 @@
 * Студент: [Анастасия Горкун](https://up.htmlacademy.ru/htmlcss-individual/2/user/156004).
 * Наставник: [Ирина
   Антипина](https://htmlacademy.ru/profile/id2108789).
+* Сайт: [Мой проект Седона](https://agniya551.github.io/156004-sedona-2/)
 
 ---
 
