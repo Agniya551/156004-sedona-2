@@ -1,0 +1,303 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Header */
+
+.navbar-link {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.navbar-link-icon {
+  text-decoration: none;
+}
+
+.badge {
+  font-size: 10px;
+  line-height: 10px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #7db54f;
+}
+
+.btn {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+}
+
+.btn-ghost {
+  background-color: transparent;
+}
+
+.btn-size-lg {
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.btn-color-secondary {
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+
+.btn-color-success {
+  background-color: #7db54f;
+}
+
+.field {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.field::placeholder {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* Главный экран */
+
+.main-banner {
+  text-align: center;
+  background-image: url("../images/index-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #333333;
+}
+
+/* Универсальная заголовочная секция блоков */
+
+.headline-wrap {
+  text-align: center;
+}
+
+.headline-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  color: inherit;
+  text-transform: uppercase;
+}
+
+.headline-desc {
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+}
+
+/* Преимущества */
+
+.advantages-item-wrap {
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+
+.advantages-item {
+  text-align: center;
+}
+
+.advantages-item-type-1 {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-item-type-2 {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: inherit;
+  text-transform: uppercase;
+}
+
+.advantages-desc {
+  color: #333333;
+}
+
+.advantages-item-wrap .advantages-desc {
+  color: #ffffff;
+}
+
+.advantages-img {
+  display: block;
+}
+
+/* Поиск гостиниц */
+
+.search-inn {
+  text-align: center;
+}
+
+/* Рассылка */
+
+.footer-mailing {
+  text-align: center;
+}
+
+.footer-mailing-bg {
+  color: #ffffff;
+  background-image: url("../images/subscribe-bg.jpg");
+  background-color: #333333;
+}
+
+.footer-mailing-bg .headline-desc {
+  color: #ffffff;
+}
+
+.footer-mailing .field {
+  font-weight: normal;
+}
+
+/* Контакты */
+
+.address-tel {
+  font-style: normal;
+  font-size: 40px;
+  line-height: 40px;
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Каталог */
+
+.catalog-filter {
+  color: #ffffff;
+  background-image: url("../images/catalog-bg.jpg");
+  background-color: #333333;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.catalog-title {
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+}
+
+.breadcrumbs-link {
+  font-size: 16px;
+}
+
+.filter-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.control {
+  position: relative;
+}
+
+.control-input {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.control-label {
+  position: absolute;
+  right: 0;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.catalog-sort-select {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+/* Карточки каталога */
+
+.catalog-item-link{
+  text-decoration: none;
+}
+
+.catalog-item-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.catalog-item-desc {
+  color: #333333;
+}
+
+.rating-total {
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+  text-transform: uppercase;
+}
+
+/* Пагинация */
+
+.pagination-link {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #82b3d3;
+  text-decoration: none;
+}
+
+.pagination-link-current {
+  color: #000000;
+  background-color: #f2f2f2;
+}
+
+/* Визуальное скрытие заголовков важных для скринридеров */
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: -1px !important;
+  border: 0 !important;
+  padding: 0 !important;
+  clip: rect(0 0 0 0) !important;
+  overflow: hidden !important;
+}
