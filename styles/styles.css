@@ -639,8 +639,10 @@ img {
 
 .control-field-label {
   position: absolute;
-  top: 12px;
-  right: 20px;
+  top: 2px;
+  right: 2px;
+  padding: 10px 18px 10px 8px;
+  background: #f2f2f2;
   line-height: 24px;
   color: rgba(0, 0, 0, 0.3);
   pointer-events: none;
@@ -674,8 +676,7 @@ img {
 }
 
 .catalog .headline-title {
-  margin: 0;
-  margin-right: 20px;
+  margin: 6px 20px 0 0;
 }
 
 .catalog-select-wrap {
