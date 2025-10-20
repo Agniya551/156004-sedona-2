@@ -158,7 +158,7 @@ img {
   appearance: none;
 }
 
-.control:after {
+.control::after {
   content: "";
   position: absolute;
   width: 0;
@@ -167,7 +167,7 @@ img {
   transition: 300ms;
 }
 
-.control:checked:after {
+.control:checked::after {
   width: 20px;
   height: 20px;
   transition: 300ms;
@@ -252,7 +252,7 @@ img {
   text-decoration: none;
 }
 
-.navbar-link-current:after {
+.navbar-link-current::after {
   position: absolute;
   bottom: -1px;
   content: "";
@@ -320,7 +320,7 @@ img {
   background-color: #333333;
 }
 
-.main-banner:after {
+.main-banner::after {
   content: "";
   display: block;
   position: absolute;
@@ -400,7 +400,7 @@ img {
   text-transform: uppercase;
 }
 
-.advantages-title-divider:after {
+.advantages-title-divider::after {
   content: "";
   display: block;
   height: 2px;
@@ -409,7 +409,7 @@ img {
   background-color: var(--color-bg-secondary);
 }
 
-.advantages-item-wrap .advantages-title-divider:after {
+.advantages-item-wrap .advantages-title-divider::after {
   background-color: var(--color-bg-primary-subtle);
 }
 
@@ -430,7 +430,7 @@ img {
   object-fit: cover;
 }
 
-.advantages-icon:before {
+.advantages-icon::before {
   content: "";
   display: block;
   width: 75px;
@@ -440,15 +440,15 @@ img {
   background-position: center;
 }
 
-.icon-house:before {
+.icon-house::before {
   background-image: url("../images/icons/house.svg");
 }
 
-.icon-food:before {
+.icon-food::before {
   background-image: url("../images/icons/food.svg");
 }
 
-.icon-gift:before {
+.icon-gift::before {
   background-image: url("../images/icons/gift.svg");
   width: 75px;
   height: 76px;
@@ -532,7 +532,7 @@ img {
   background-image: url("../images/icons/home.svg");
 }
 
-.breadcrumbs-item:nth-child(1n+2):before {
+.breadcrumbs-item:nth-child(1n+2)::before {
   content: "";
   display: block;
   width: 8px;
@@ -589,7 +589,7 @@ img {
   border-radius: 4px;
 }
 
-.control-checkbox:after {
+.control-checkbox::after {
   top: 1px;
   background-image: url("../images/icons/check.svg");
 }
@@ -602,7 +602,7 @@ img {
   border-radius: 50%;
 }
 
-.control-radio:after {
+.control-radio::after {
   background-image: url("../images/icons/circle.svg");
 }
 
@@ -818,7 +818,7 @@ img {
   text-align: right;
 }
 
-.rating-stars:after {
+.rating-stars::after {
   content: "";
   display: block;
   gap: 16px;
@@ -828,15 +828,15 @@ img {
   background-repeat: repeat-x;
 }
 
-.rating-stars-2:after {
+.rating-stars-2::after {
   width: 42px;
 }
 
-.rating-stars-3:after {
+.rating-stars-3::after {
   width: 66px;
 }
 
-.rating-stars-4:after {
+.rating-stars-4::after {
   width: 90px;
 }
 
@@ -866,7 +866,7 @@ img {
   list-style-type: none;
 }
 
-.pagination-list:before {
+.pagination-list::before {
   content: "";
   display: block;
   width: 1060px;
